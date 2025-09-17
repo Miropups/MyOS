@@ -1,0 +1,3 @@
+ls параметры1   #комм
+cd параметры2 #
+akjsfd dfgjdfuhgudfhg
