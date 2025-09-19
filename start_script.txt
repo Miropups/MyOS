@@ -1,3 +1,4 @@
 ls параметры1   #комм
-cd параметры2 #
-akjsfd dfgjdfuhgudfhg
+cd параметры2 #комментарий 2
+jkdhghfhd gfdgudfg #не правильный ввод комманды
+

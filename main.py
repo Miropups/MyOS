@@ -62,11 +62,13 @@ def main(page: ft.Page):
         )
     )
     showTextOnScreen(console.correct_input()) # выводит результат работы с файлом
-    
-    for command in console.get_command_list(): #command - список
-        command_output = command_process(command)
-        print(f"ввод комманды через файл - {command_output}")
-        showTextOnScreen(command_process(command_output.split()))
+    try:
+        for command in console.get_command_list(): #command - список
+            command_output = command_process(command)
+            print(f"ввод комманды через файл - {command_output}")
+            showTextOnScreen(command_process(command_output.split()))
+    except:
+        pass
 
 
 
